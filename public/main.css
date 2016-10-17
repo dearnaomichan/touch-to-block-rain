@@ -1,0 +1,126 @@
+/*apply a natural box layout model to all elements but allowing components to change*/
+html {
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-size:30px;
+  margin: 0;
+}
+
+#touchArea {
+  width:100%;
+  height:100%;
+  background-color: black;
+  position: relative;
+}
+
+
+/*
+.tap {
+  width: .73em;
+  height:.73em;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+}
+
+
+#container{
+  position: relative;
+  width: 100%;
+  height:100%;
+  background-color: blue;
+}
+
+
+#container{
+  position: relative;
+  width: 100px;
+  height:100px;
+  background-color: red;
+}*/
+
+
+
+/*
+#myElement {
+  background: silver;
+  height: 300px;
+  text-align: center;
+  font: 30px/300px Helvetica, Arial, sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Helvetica', Arial;
+}
+
+#output {
+  background-color: #3B3B3B;
+  width: 100%;
+  display: block;
+  min-height: 30px;
+  padding: 10px;
+  font-size: 0.8em;
+  color: white;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#tap-container{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;*/
+/*   color: white; */
+  /*cursor: pointer;
+}
+
+.tap-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 3rem;
+
+  color: white;
+  padding: 10px 20px;
+  margin: 0 0 7px;
+  outline: none;
+  position: relative;
+  border: 0px;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+.orange {
+  background-color:#80D8FF;
+}
+
+.seafoam {
+  background-color:#00B0FF;
+}*/
+
+/* .tap-area:active {
+  margin: 7px 0 0;
+  box-shadow: 0 0 #0052E0, 0 0 #2f2f2f, 0 3px 14px #FF3020 inset;
+} */
